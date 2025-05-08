@@ -1,20 +1,20 @@
-# SwiftUI Enum-Based Navigation Architecture
+# SwiftUI Enum Based Navigation Architecture
 
-A type-safe, testable, and modular navigation system for SwiftUI using enum-based routing and protocol-driven screen composition.
+A type safe, testable, and modular navigation system for SwiftUI using enum based routing and protocol driven screen composition.
 
 ---
 
 ## 📌 Why This Exists
 
-SwiftUI’s built-in navigation tools are powerful, but they can become difficult to scale, test, or coordinate in apps with dynamic routing, multiple entry points, or feature flags.
+SwiftUI’s built in navigation tools are powerful, but they can become difficult to scale, test, or coordinate in apps with dynamic routing, multiple entry points, or feature flags.
 
 This architecture introduces:
 
-* Centralized, strongly-typed navigation
+* Centralized, strongly typed navigation
 * Declarative page rendering via protocols
 * Support for deep linking, analytics, and previews
 
----
+ --
 
 ## 🏗 Architecture Summary
 
@@ -113,9 +113,9 @@ Used in `PageView.onAppear { ... }`
 
 ## ✅ Benefits
 
-* ✅ Strongly-typed navigation (no route strings)
-* ✅ Reusable, testable, protocol-based page definitions
-* ✅ Analytics and deep-linking support built-in
+* ✅ Strongly typed navigation (no route strings)
+* ✅ Reusable, testable, protocol based page definitions
+* ✅ Analytics and deep linking support built in
 * ✅ Great for previews and UI tests
 
 ---
